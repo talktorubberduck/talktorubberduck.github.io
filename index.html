@@ -56,7 +56,7 @@
     <img src="logo.png" id="logo">
     <div id="winkduck" class="callimg wink"></div>
     <div id="duck" class="callimg"></div>
-    <img src="endcall.png" id="endcall" onclick="window.close();">
+    <img src="endcall.png" id="endcall" onclick="window.open('','_parent','');window.close();">
     <script>
         setInterval(function() {
             document.getElementById("winkduck").style.display = "block";
